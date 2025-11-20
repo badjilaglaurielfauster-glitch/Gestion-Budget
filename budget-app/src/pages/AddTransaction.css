@@ -1,0 +1,56 @@
+.add-transaction-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    background: #f8f9fc;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 20px; /* positionne le formulaire à gauche */
+    font-family: "Segoe UI", sans-serif;
+}
+
+.add-transaction-container h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.add-transaction-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Style des inputs */
+.add-transaction-container input,
+.add-transaction-container select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.add-transaction-container input:focus,
+.add-transaction-container select:focus {
+    border-color: #4f46e5;
+    outline: none;
+}
+
+/* Bouton */
+.add-transaction-container button {
+    padding: 12px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.add-transaction-container button:hover {
+    background: #3730a3;
+}
